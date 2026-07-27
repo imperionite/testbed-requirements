@@ -135,4 +135,6 @@ pyrightconfig.json
 *.vsix
 .history
 .ionide
+.gitingestignore
+digest.txt
 
