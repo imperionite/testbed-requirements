@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Workflow for the Validation and Analysis of Software Requirements for the Proposed SIMS"
+message: "If you use this software, please cite this repository."
+type: software
+authors:
+  - family-names: "Imperial"
+    given-names: "Arnel"
+version: "1.0.0"
+date-released: "2026-07-27"
+url: "https://github.com/imperionite/testbed-requirements"
