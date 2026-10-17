@@ -1,0 +1,13 @@
+File,VUs,Trial,Total_Requests,HTTP_Failed_Rate_pct,HTTP_Success_Rate_pct,HTTP_Failed_Count,HTTP_Passed_Count,Counts_Sum,Failed_Count_Implied_By_Rate,Passed_Count_Implied_By_Rate,Counts_Sum_Matches_Total,Failed_Count_Matches_Rate,Passed_Count_Matches_Rate,Counts_Possibly_Swapped
+vus_10_run_1_summary.json,10.0,1.0,609.0,3.1198686371100166,96.88013136288998,590.0,19.0,609.0,19.0,590.0,True,False,False,True
+vus_10_run_2_summary.json,10.0,2.0,648.0,2.314814814814815,97.6851851851852,633.0,15.0,648.0,15.0,633.0000000000001,True,False,False,True
+vus_10_run_3_summary.json,10.0,3.0,1033.0,0.1936108422071636,99.80638915779284,1031.0,2.0,1033.0,2.0,1031.0,True,False,False,True
+vus_25_run_1_summary.json,25.0,1.0,1891.0,1.533580116340561,98.46641988365944,1862.0,29.0,1891.0,29.000000000000004,1862.0,True,False,False,True
+vus_25_run_2_summary.json,25.0,2.0,1589.0,2.7690371302706107,97.23096286972938,1545.0,44.0,1589.0,44.0,1545.0,True,False,False,True
+vus_25_run_3_summary.json,25.0,3.0,2356.0,0.0424448217317487,99.95755517826824,2355.0,1.0,2356.0,0.9999999999999993,2354.9999999999995,True,False,False,True
+vus_50_run_1_summary.json,50.0,1.0,2606.0,4.144282425172678,95.85571757482732,2498.0,108.0,2606.0,107.99999999999999,2498.0,True,False,False,True
+vus_50_run_2_summary.json,50.0,2.0,3226.0,0.1859888406695598,99.81401115933043,3220.0,6.0,3226.0,6.0,3220.0,True,False,False,True
+vus_50_run_3_summary.json,50.0,3.0,3184.0,0.1884422110552763,99.81155778894473,3178.0,6.0,3184.0,5.999999999999997,3178.0,True,False,False,True
+vus_100_run_1_summary.json,100.0,1.0,3555.0,5.260196905766526,94.73980309423348,3368.0,187.0,3555.0,187.0,3368.0,True,False,False,True
+vus_100_run_2_summary.json,100.0,2.0,3280.0,0.0,100.0,3280.0,0.0,3280.0,0.0,3280.0,True,False,False,True
+vus_100_run_3_summary.json,100.0,3.0,3535.0,0.5657708628005658,99.43422913719944,3515.0,20.0,3535.0,20.0,3515.0,True,False,False,True
