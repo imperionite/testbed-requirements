@@ -1,4 +1,4 @@
-# Preliminary Performance and Derived Scalability Analysis of the Serverless-Based Internship Management System (SBIMS)
+# Preliminary Performance and Derived Scalability Analysis of the SBIMS
 
 **Study:** Serverless-Based Internship Management System for Higher Education Institutions  
 **Evaluation tool:** K6 load testing  
