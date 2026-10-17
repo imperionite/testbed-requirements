@@ -1,0 +1,103 @@
+Timestamp,What is your current or previous role in the internship process?  ,I think that I would like to use this system frequently.,I found the system unnecessarily complex.,I thought the system was easy to use.,I think that I would need the support of a technical person to be able to use this system.,I found the various functions in this system were well integrated.,I thought there was too much inconsistency in this system.,I would imagine that most people would learn to use this system very quickly.,I found the system very cumbersome to use.,I felt very confident using the system.,I needed to learn a lot of things before I could get going with this system.,"Any comments, observation or suggestions about your experience using the app.  "
+10/6/2026 15:05:47,Student,3,3,5,4,3,2,4,3,4,4,
+10/6/2026 15:23:36,Student,5,1,4,1,5,1,4,1,4,1,"Overall, the app was easy to navigate and the main features were straightforward to use. The attendance logging feature was easy to find, and the internship progress section clearly showed the required hours, rendered hours, and progress percentage. One suggestion would be to improve the error messages. When I entered an invalid time range, the system only displayed “Request failed with status code 400,” which may be confusing for users. It would be better to show a clearer message explaining what needs to be corrected, such as “Time Out must be later than Time In.” Overall, the system was simple and user-friendly."
+10/7/2026 10:41:43,OJT/Internship Coordinator,4,5,5,2,4,1,4,2,4,3,Im not sure if it is part of the functional process but it would be better to have an edit functionality of the internship record filed but would require administrative escalation like with PH to approve the updating of internship information if part of the scope of the study
+10/7/2026 13:10:12,Student,5,1,5,1,5,1,5,1,5,1,"I'd gladly use this website because during my voluntary internship, I was manually counting my rendered hours and my documents were scattered, so I think it will be really helpful. I also think a UI enhancement would greatly improve it. I'd like the dashboard to show my hours progress, remaining hours, and pending logs right away instead of having to check the Internships page. I suggest replacing the ""Students"" tab with ""My Profile."" I was also able to log attendance for future dates like Oct 8 and 9, which shouldn't be allowed. Overall, I think the design needs more color and stronger branding to feel more polished."
+10/7/2026 18:41:27,Student,1,1,1,5,1,5,1,5,1,5,none
+10/8/2026 20:18:39,Faculty Adviser,4,1,5,2,4,1,4,2,4,2,"The prototype is easy to navigate from my assigned perspective/role as a faculty adviser. The content is also simple and easy to understand. Based on my experience, the only area I would suggest improving is the Tasks (instructions)."
+10/8/2026 22:36:41,Student,5,1,5,1,5,1,5,1,5,1,The system was so easy to navigate and use
+10/9/2026 10:26:28,Student,5,5,5,1,5,1,5,1,5,1,
+10/9/2026 13:58:41,HTE Supervisor/Personnel,5,2,3,1,4,2,4,2,4,1,
+10/9/2026 18:05:22,Faculty Adviser,4,2,3,2,3,3,3,3,4,3,"Overall Impression
+
+The task flow was clear and easy to complete. The navigation is simple, the layout is consistent across pages, and the create → save draft → reopen → edit → save steps followed a logical order. The one real friction point was working out how to select the student to evaluate. Fixing that would remove the main barrier to an otherwise smooth experience.
+
+What Works Well
+
+A. Simple, consistent navigation. The four-item sidebar (Dashboard, Students, Evaluations, Documents) uses clear labels and icons, and the active page is highlighted.
+
+B. Clear page headers. Each page has a title and a one-line description of its purpose, such as “Manage your assigned internship evaluations.”
+
+C. Useful status summary on Evaluations. The Total, Draft, and Submitted cards let an adviser see their workload at a glance.
+
+D. Prominent primary action. The dark “New Evaluation” button is easy to find and stands out from the rest of the page.
+
+E. Familiar data table. Search, filter, column, density, and full-screen controls plus pagination work as users expect.
+
+F. Draft workflow. Letting advisers save and revise before submitting suits how evaluations are actually done.
+
+Areas for Improvement
+
+A. Student selection in New Evaluation (High priority)
+
+This was the main difficulty you reported. Likely causes, based on what the pages show:
+
+1. The Evaluations list only shows students who already have an evaluation. The Students page lists the advisee pool, but the Evaluations page lists a different set of people (at least in the visible rows). An adviser may not realize that the New Evaluation form is where new interns are chosen.
+
+2. No visible cue about eligibility. The task notes that each intern can have only one Faculty Adviser evaluation, but the interface doesn’t appear to show which interns are eligible, already evaluated, or have a pending internship status.
+
+3. The Students page doesn’t connect to evaluating. The row’s only action is a “view” (eye) icon.
+
+Recommendations:
+
+- Make the student field a searchable dropdown or autocomplete showing name, student number, and program.
+
+- Show each intern’s evaluation state in the picker (“No evaluation yet”, “Draft”, “Submitted”), and disable or flag interns who already have one with a short explanation.
+
+- Add a label or helper text such as “Select the student intern you want to evaluate.”
+
+- Add an “Evaluate” action on the Students page that opens the form with that student pre-selected.
+
+- If interns with a “Pending” internship status can’t be evaluated, say so in the picker rather than leaving users to guess.
+
+B. Evaluations table readability (Medium)
+
+1. Columns are cut off, so “Evaluation Type” and its values appear as “Evalua…” and “Facult…”. Users must scroll or guess to read them.
+
+2. There is no Status column, such as Draft or Submitted, even though the summary cards track it. Advisers can’t tell which row is a draft without opening it.
+
+3. The pencil (edit) icon has no tooltip or text label, so its function isn’t obvious.
+
+Recommendations: Set sensible column widths or allow wrapping, put Status in the first few columns with a color-coded chip, and add tooltips such as “Edit evaluation” to icon-only actions.
+
+C. Feedback and confirmation after saving (Medium)
+
+1. Tasks 6 and 10 ask evaluators to verify saves, which suggests the confirmation needs to be unmistakable. If it isn’t already:
+
+- Show a clear success message (“Draft saved”) and update the Draft counter and table row immediately.
+- Show a “last saved” timestamp inside the draft.
+- Warn users about unsaved changes if they navigate away.
+
+
+D. Form clarity (Medium)
+
+- Define each rating scale (what a 1 or a 5 means) near the input.
+- Show a live summary or computed total so changes to ratings are visible.
+- Make “Save as Draft” and “Submit” visually distinct, so users don’t submit accidentally. The black background does a little bit of it but not much
+
+E. Dashboard value (Low to Medium)
+
+The dashboard states “Monitor assigned students and internship progress,” but it only shows a welcome message and role. Useful additions would be counts of assigned interns, evaluations pending or in draft, and shortcuts such as “Create evaluation.” The greeting also shows a shortened name, while the header shows the full name with suffix (Jr. vs No Jr.). Pick one convention.
+
+F. Smaller observations (Low)
+
+A. Documents page: “Approved” and “Pending” are pale gray text with weak contrast, and the download icon has no label. Color-coded status chips would read better.
+
+B. Disabled Upload button: It’s gray with no hint why. A note like “Select a document type and file to enable upload” would help.
+
+C. Mixed terminology: Pages use “Student Intern,” “Student,” and “Intern / Internship.” One consistent term would reduce confusion.
+
+D. Accessibility: Check color contrast on secondary text, keyboard access to icon buttons, and ARIA labels for the table action icons.
+
+Closing Remarks
+
+The system does what it sets out to do, and the drafting workflow is easy to follow once the right student is selected. The suggestions above mostly concern discoverability and feedback, such as helping users find where to start and confirming what they did, rather than structural problems. With a better student selection experience and clearer status indicators, I expect the task to be completed without hesitation even by first-time users. Well done to the team, and I hope this helps in refining the system."
+10/9/2026 20:37:34,Faculty Adviser,5,1,5,1,4,3,5,1,5,1,"Log-In Credentials - was taking too long to load, first attempt was invalid, was able to get through on the second attempt
+Document Section - was taking too long to load also
+Download/View of each Document - was really taking too long before the document can be viewed, need to try to click several times before the document appears
+Document Content - there were 2 inconsistencies"
+10/10/2026 19:41:56,Student,5,1,5,1,4,1,5,1,5,1,"The app is easy to navigate, and the menu options are clearly organized, making it simple to access different sections. However, adding dummy data or sample records to the dashboard, internship listings, student records, evaluations, and documents would help users better visualize how the system works and understand the purpose of each section"
+10/10/2026 22:55:49,IMS Administrator,3,2,2,1,4,2,4,2,4,4,"The app is straightforward, simple, and easy to use. However, performance could be improved to make the system feel faster and more responsive."
+10/13/2026 6:22:22,OJT/Internship Coordinator,4,2,3,1,3,2,4,2,4,1,"The design is simple and straightforward. However, data accuracy and efficiency could be improved. Using dropdown menus for list-based fields would prevent incorrect entries, while adding auto-complete functionality would help users fill out student records much faster.
+"
+10/17/2026 5:02:34,Student,5,1,5,1,5,1,5,1,5,1,"Great job—the interface is clean and easy to navigate! Since this is linked to students, adding a profile picture feature would be really helpful for managing and identifying who submitted what. It would also be nice to explain what SBIMS stands for next to the logo, or maybe add an About Us section. Just a few friendly suggestions—nice work!"
