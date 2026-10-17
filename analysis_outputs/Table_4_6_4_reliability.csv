@@ -1,0 +1,5 @@
+VUs,HTTP_Failed_Rate_pct_Mean,HTTP_Failed_Rate_pct_SD,Workflow_Success_Rate_pct_Mean,Workflow_Success_Rate_pct_SD
+10,1.876,1.512,96.848,2.624
+25,1.448,1.365,97.371,2.332
+50,1.506,2.285,97.781,3.114
+100,1.942,2.888,96.964,4.074
